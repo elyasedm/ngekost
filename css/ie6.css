@@ -1,0 +1,29 @@
+#header ul li {
+	display: inline;
+}
+#header ul li a {
+	display: inline-block;
+}
+#body div.featured div ul {
+	padding: 0 0 0 10px;	
+}
+#body div.featured div div.section div {
+	left: 480px;
+	top: -353px;
+}
+#body .content div div ul li {
+	margin: 0 8px 15px;
+}
+#body .content div div h4 {
+	margin: 0 0 0 80px;
+}
+#body .content div div h4 a {
+	text-align: center;
+	width: 130px;
+}
+#body .gallery h3 {
+	margin: 15px 0 0;
+}
+#body .gallery div ul li {
+	margin: 0 8px 10px;
+}

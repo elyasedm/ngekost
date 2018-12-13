@@ -1,0 +1,9 @@
+#header ul li {
+	display: inline;
+}
+#header ul li a {
+	display: inline-block;
+}
+#body div.featured div div.section div {
+	top: -353px;
+}

@@ -1,0 +1,695 @@
+/* Template by freewebsitetemplates.com */
+
+body {
+    background: #5E9901;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;	
+    font-size: 12px;
+}
+#header {
+    background:#5E9901 url(../images/bg-header.jpg) repeat-x center top;
+    margin: 0;
+    padding: 0;	
+    overflow: hidden;
+    min-width: 960px;
+}
+#header ul {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 31px 0 34px 0;	
+    text-align: center;
+    min-width: 960px;
+}
+#header ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 3px;
+    padding: 0;
+}	
+#header ul li a {
+    color: #fff;
+    display: block;
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    text-decoration: none;	
+    text-transform: capitalize;
+}
+#header ul li.selected,
+#header ul li.selected a {
+    background: url(../images/menu.gif) no-repeat top left;
+}
+
+#header ul li.selected {
+    background-position: 0 0;
+    padding: 0 0 0 10px;
+}
+#header ul li.selected a {
+    background-position: right -34px;
+}
+#header ul li a:hover {
+    color: #fff6e0;	
+}
+#header div {
+    margin: 0 auto;
+    padding: 0 0 35px 10px;
+    width: 960px;
+}	
+#header div.logo a img{
+    border: 0;
+    margin-left: 60px;
+    width: 330px;
+}
+#body {
+    background: #fefef6;
+    margin: 0;
+    padding: 0;
+    min-width: 960px;
+}	
+#body h1 {
+    color: #4F4D4C;
+    font-family: Times New Roman;
+    font-size: 36px;
+    margin: 0;
+    padding: 20px 0 10px;	
+    text-transform: capitalize;
+}
+#body h3 {
+    color: #918873;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+#body h3 a {
+    color: #918873;	
+    margin: 0;
+    padding: 0;
+}
+#body h3 a:hover {
+    color: #b7b1a1;
+}
+#body p {
+    color: #918873;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;	
+    text-align: justify;
+}
+#body p a {
+    color: #918873;	
+}
+#body p a:hover {
+    color: #b7b1a1;		
+}
+#body div.featured {
+    background: #5E9901;	
+    height: 338px;
+    margin: 0;
+    padding: 0;
+}
+#body div.featured div {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+#body div.featured div ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 480px;	
+}
+#body div.featured div ul li {
+    float: left;
+    list-style: none;
+    margin: 0 20px 0 0;
+    padding: 0;	
+    width: 220px;
+}
+#body div.featured div ul li img {
+    border: 2px solid #e07cb3;
+    margin: 0;
+    padding: 0;	
+    border: 2px solid #FFF;
+    width: 216px;
+    height:166px;
+    border-radius: 10px;
+}
+#body div.featured div div.section {
+    position: relative;	
+}
+#body div.featured div div.section div {
+    left: 470px;
+    position: absolute;
+    top: -359px;
+    width: 470px;
+}
+#body div.featured div div.section div img {
+    border: 4px solid #FFF;
+    width: 465px;
+    height:420px;
+    border-radius: 10px;
+    margin: 0;
+}
+#body div.featured h2 {
+    color: #f085c5;
+    font-size: 25px;
+    margin: -12px 0 0 0;
+    padding: 0;	
+    text-transform: capitalize;
+}
+#body .content {
+    margin: 0 auto;
+    padding: 0 0 72px 0;
+    width: 960px;
+}
+#body .home span.heading {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #FFF;
+}
+#body .home span.heading a {
+    display: block;
+    left: 50px;
+    position: absolute;	
+    top: -47px;
+    z-index: 3;
+    background-color: #fff6e0;
+    border-radius: 10px;
+    width: 373px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: arial;
+    text-shadow: 1px 1px 1px #000;
+    color: #5E9901;
+    font-style:italic;
+    box-shadow: 0 0 10px #000;
+}
+#body .content div {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;	
+    width: 960px;
+}
+#body .content div ul {
+    float: left;
+    margin: 0;
+    padding: 45px 0 0 0;	
+    width: 470px;	
+}
+#body .content div ul li {
+    background: url(../images/border.gif) repeat-x bottom left;
+    list-style: none;
+    margin: 0 10px 15px 0;
+    padding: 0 0 18px 0;	
+}
+#body .content div ul li:last-child {
+    background: none;	
+}
+#body .content div div ul li a {
+    text-decoration: none;	
+}
+#body .content div div ul li a:hover span {
+    color: #b7b1a1;
+}
+#body .content div div ul li img {
+    border: 0;	
+}
+#body .content h3 {
+    color: #918873;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;	
+}
+#body .content h3 a {
+    color: #474747;	
+}
+#body .content h3 a:hover {
+    color: #b7b1a1;	
+}
+#body .content div ul li p {
+    color: #918873;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;	
+    text-align: justify;
+}
+#body .content div ul li p a {
+    color: #918873;	
+}
+#body .content div ul li p a:hover {
+    color: #b7b1a1;		
+}
+#body .content div div {
+    float: left;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    padding: 0 10px 0 0;
+    width: 470px;
+}
+#body .content div div ul {
+    float: none;
+    margin: 0;
+    overflow: hidden;
+    width: 480px;
+}
+#body .content div div ul li {
+    background: none;
+    float: left;
+    list-style: none;	
+    margin: 0 10px 15px;
+    padding: 0;
+}
+#body .content div div ul li img,#body .gallery div ul li img{
+    border: 2px solid #5E9901;
+    width: 135px;
+    height:135px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #5E9901;
+}
+#body .content div div ul li span,#body .gallery div ul li span {
+    color: #474747;
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;	
+    width: 135px;
+    height: 40px;
+}
+#body .gallery div ul li span span{
+    font-size: 12px;
+}
+#body .home div h4 {
+    background: url(../images/icons.gif) no-repeat left -62px;	
+    float: left;
+    margin: 0 0 0 45%;
+    padding: 0 0 0 30px;
+}
+#body .home div h4 a {
+    background: url(../images/icons.gif) no-repeat right -86px;
+    color: #538701;
+    display: block;	
+    height: 16px;
+    font-family: Times New Roman;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 30px 0 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#body .home div h4 a:hover {
+    color: #93C1F2;	
+}
+#body .gallery {
+    margin: 0 auto;
+    padding: 0;
+    padding: 0 0 50px 10px;
+    width: 800px;	
+}
+#body .gallery div {
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 5px 0;	
+}
+#body .gallery div div {
+    float: left;
+    width: 470px;	
+}
+#body .gallery div ul {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;	
+}
+#body .gallery div ul li {
+    float: left;
+    list-style: none;
+    margin: 0 10px 40px;
+    padding: 0;	
+}
+#body .gallery div img{
+    border: 0;
+    width: 456px;
+    height: 447px;
+    border: 2px solid #5E9901;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #5E9901;
+}
+#body .handling {
+    margin: 0 auto;
+    padding: 0 10px 50px 10px;	
+    width: 940px;
+}
+#body .handling div {
+    overflow: hidden;	
+    padding: 0;
+}
+#body .handling div ul {
+    float: left;
+    margin: 0;
+    padding: 20px 0 0;	
+    width: 560px;
+}
+#body .handling div ul li {
+    background: url(../images/bullet.gif) no-repeat 0 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0 30px 0 20px;	
+}
+#body .handling div div {
+    float: left;
+    margin: 0;
+    padding: 20px 0 0;
+    width: 378px;	
+}
+#body .handling div div img {
+    border: 1px solid #948b76;	
+    margin: 0;
+    padding: 0;
+}
+#body .payment {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 50px 0;
+    width: 940px;	
+}
+#body .payment div {
+    overflow: hidden;	
+}
+#body .payment div .article {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 600px;	
+}
+#body .payment .section1 {
+    background: url(../images/border2.gif) repeat-x bottom left;	
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+}
+#body .payment .section1 .article {
+    padding: 0 20px 0 0;	
+}
+#body .payment .section2 .article {
+    padding: 0 0 0 20px;	
+}
+#body .payment div .article ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+}	
+#body .payment div .article ul li {
+    background: url(../images/bullet.gif) no-repeat 0 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 15px;	
+}
+#body .payment div div {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 320px;	
+}
+#body .payment div div img {
+    border: 1px solid #918873;	
+    margin: 0;
+    padding: 0;
+}
+#body .about {
+    margin: 0 auto;
+    padding: 0 10px 50px 10px;
+    width: 940px;
+}	
+#body .about h2 {
+    color: #918873;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 0 5px 0;	
+    text-transform: capitalize;
+}
+#body .about div {
+    margin: 0;
+    padding: 0 0 30px 0;
+}	
+#body .blog {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 10px 50px 10px;
+    width: 940px;	
+}
+#body .blog div {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 640px;	
+}
+#body .blog ul {
+    float: right;
+    margin: 0;
+    padding: 0 0 0 28px;	
+    width: 272px;
+}
+#body .blog ul li {
+    background: url(../images/border2.gif) repeat-x bottom left;
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0 0 15px;	
+}
+#body .blog ul li h3 {
+    font-size: 14px;	
+}
+#body .blog ul li:last-child {
+    background: none;	
+}
+#body .contact {
+    margin: 0 auto;
+    padding: 0 10px 50px 10px;
+    width: 85%;	
+}
+#body .contact div {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;	
+}
+#body .contact div div {
+    float: left;
+    width: 470px;	
+}
+#body .contact ul {
+    margin: 0;
+    padding: 0;	
+}
+#body .contact ul li {
+    color: #918873;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 8px 0 0;	
+}
+#body .contact ul li span {
+    background: url(../images/colon.gif) no-repeat center right;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 80px;
+}
+#body .contact div h4 {
+    color: #918873;
+    font-size: 14px;
+    margin: 0;
+    padding: 30px 0 0;
+    text-transform: uppercase;	
+}
+#footer {
+    background: #5E9901;
+    margin: 0;
+    padding: 40px 0;	
+}
+#footer div {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 940px;	
+}
+#footer div .connect {
+    float: left;
+    overflow: hidden;	
+    width: auto;
+}
+#footer div .connect h4 {
+    color: #e794c6;
+    float: left;	
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+#footer div .connect ul {
+    float: left;
+    margin: 0;
+    padding: 0;	
+    overflow: hidden;
+    width: 200px;
+}
+#footer div .connect ul li {
+    float: left;
+    list-style: none;
+    margin: 0 0 0 15px;
+    padding: 0;	
+}
+#footer div .connect ul li a {
+    display: block;	
+    height: 26px;
+    width: 38px;
+    text-indent: -99999em;
+}
+#footer div .connect ul li.facebook a {
+    background: url(../images/icons.gif) no-repeat 0 0;	
+}
+#footer div .connect ul li.twitter a {
+    background: url(../images/icons.gif) no-repeat 0 -30px;	
+}
+#footer div p {
+    color: #e794c6;
+    float: right;
+    font-size: 12px;
+}	
+
+.content-table table {
+    border-width: 1px;
+    border-style: solid;
+    border-color:#5E9901;
+    border-collapse: collapse;
+    margin: 10px 0px;
+    background:#e8f1fb;
+    width: 100%;
+}
+
+.content-table th{
+    color:#FFFFFF;
+    font-weight:bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5em;
+    border:1px solid #5E9901;
+    border-collapse: collapse;
+    background: #5E9901;
+    text-shadow:#000 0px 0px 4px;
+}
+
+.content-table td{
+    padding: 0.5em;
+    vertical-align: middle;
+    border:#5E9901 solid 1px;
+    border-collapse: collapse;
+    background:none;
+    padding-left:10px;
+}
+
+.button-h2{
+    padding: 10px 30px;
+    display: block;
+    background-color: #5E9901;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 3px #5E9901;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 20px 10px 0;
+    float: left;
+    font-size: 14px;
+}
+
+.button-h2:hover{
+    color: #000;
+}
+
+.cancel{
+    background-color:#000;
+}
+.cancel:hover{
+    color: #FF6600
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+
+#body .home {
+    margin: 0 auto;
+    padding: 0 0 72px;
+    width: 960px;
+}
+ul.home-list{
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+}
+
+ul.home-list li{
+    width: 460px;
+    float: left;
+    list-style: none;
+    margin-bottom: 20px;
+    background: #5E9901;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+ul.home-list li a{
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    width: 316px;
+    float: right;
+    min-height: 138px;
+    border-left: #FFF solid 5px;
+}
+ul.home-list li:hover{
+    background: #BBD8F7;
+}
+ul.home-list li img{
+    float: left;
+    width: 135px;
+    height: 135px;
+    border: #5E9901 solid 2px;
+    position: absolute;
+}
+
+ul.home-list li a span{
+    display: block;
+    padding: 10px;
+    color: #000;
+    font-size: 13px;
+}
+
+ul.home-list li a span b{
+    color: #FFF;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
